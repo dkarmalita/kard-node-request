@@ -1,6 +1,6 @@
 {
   "name": "@kard/node-request",
-  "version": "0.1.0-rc.1",
+  "version": "0.1.0-rc.2",
   "description": "Simple NodeJS http/https client.",
   "main": "index.js",
   "directories": {
@@ -8,6 +8,7 @@
   },
   "scripts": {
     "esfix": "eslint ./lib ./*.js --fix",
+    "publish-next": "publish-next",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
