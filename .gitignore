@@ -1,0 +1,4 @@
+*.kard.*
+*.bak.*
+__bak__
+node_modules

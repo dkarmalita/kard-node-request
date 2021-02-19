@@ -1,0 +1,41 @@
+{
+  "name": "@kard/node-request",
+  "version": "0.1.0-rc.1",
+  "description": "Simple NodeJS http/https client.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "esfix": "eslint ./lib ./*.js --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "http",
+    "https",
+    "client",
+    "node"
+  ],
+  "author": "Dmitry Karmalita",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkarmalita/kard-node-request.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dkarmalita/kard-node-request/issues"
+  },
+  "homepage": "https://github.com/dkarmalita/kard-node-request#readme",
+  "devDependencies": {
+    "@kard/publish-next": "0.1.0-rc.6",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
